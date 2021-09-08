@@ -138,9 +138,9 @@ locale_dirs = ['../locale/']
 templates_path = ['../extensions']
 
 # custom docname_to_domain to divide the translations of applications in subdirectories
-sphinx.transforms.i18n.docname_to_domain = (
-    sphinx.util.i18n.docname_to_domain
-) = lambda docname, compact: docname.split('/')[1 if docname.startswith('applications/') else 0]
+# sphinx.transforms.i18n.docname_to_domain = (
+#     sphinx.util.i18n.docname_to_domain
+# ) = lambda docname, compact: docname.split('/')[1 if docname.startswith('applications/') else 0]
 
 supported_languages = {
     'de': 'Deutsch',

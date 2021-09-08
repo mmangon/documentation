@@ -7,7 +7,4 @@ Odoo Documentation
 
 .. toctree::
 
-    applications
-    administration
-    developer
-    contributing
+    muppy
